@@ -37,7 +37,7 @@ namespace FindAndReplace.Models
             Console.WriteLine();
             try
             {
-                Console.WriteLine("To go again, Enter 1,  to quit or exit enter 0 ");
+                Console.WriteLine("To go again, Enter 1,  to quit or exit enter 2 ");
                 string userContinue = Console.ReadLine();
                 int userContinueInt = int.Parse(userContinue);
                  switch (userContinueInt)
