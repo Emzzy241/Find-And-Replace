@@ -43,12 +43,15 @@ namespace FindAndReplace.Models
                  switch (userContinueInt)
                 {
                     case 1:
+                        Console.WriteLine();
                         Main();
                         break;
                     case 2:
+                        Console.WriteLine();
                         Console.WriteLine("Goodbye :(");
                         break;
                     default:
+                        Console.WriteLine();
                         Console.WriteLine("Oops! I didn't get that, let's try again");
                         Main();
                         break;
