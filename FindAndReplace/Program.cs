@@ -10,9 +10,10 @@ namespace FindAndReplace.Models
             Console.WriteLine("Welcome to the FindAndReplace App");
             Console.WriteLine();
             Console.WriteLine("made by Dynasty");
+            Console.WriteLine();
 
             // Creating new Instance of class
-            Console.WriteLine("Enter 3 words; first is a sentence, second is a word you want to in that sentence, 3rd is th enew word you want to change it into");
+            Console.WriteLine("Enter 3 words; first is a sentence, second is a word you want to find in that sentence, 3rd is the new word you want to change it into");
             Console.WriteLine();
             Console.WriteLine("If word does not exist in sentence, the sentence gets returned and nothing will be done");
             Console.WriteLine();
@@ -37,7 +38,7 @@ namespace FindAndReplace.Models
             Console.WriteLine();
             try
             {
-                Console.WriteLine("To go again, Enter 1,  to quit or exit enter 2 ");
+                Console.WriteLine("To go again, Enter 1,  to quit or exit app enter 2 ");
                 string userContinue = Console.ReadLine();
                 int userContinueInt = int.Parse(userContinue);
                  switch (userContinueInt)

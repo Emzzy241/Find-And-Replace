@@ -40,7 +40,7 @@ namespace FindAndReplace.Tests
         {
             // Arrange
             WordReplacer newReplacer = new WordReplacer("Dynasty will be a Multi Billionnaire", "Dynasty", "Warrior");
-            string setSentence = "Dynasty will be a Trillionnaire";
+            string setSentence = "Dynasty will be a Trilionnaire";
 
             // Act
             newReplacer.Sentence = setSentence;
