@@ -56,6 +56,8 @@ namespace FindAndReplace.Models
     // }
 
 
+    // Algorithm's Time complexity is linear since each element in the array is being looped through
+    
     // For partial matches and for single words
     public string FindAndReplaceWord(string sentence, string oldWord, string newWord)
     {
